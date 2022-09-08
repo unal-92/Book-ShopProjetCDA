@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Adresse de livraison</title>
+    <link rel="stylesheet" href="./address_user.css">
+</head>
+<!-- VALIDATION DE L'ACHAT -->
+
+
+
+<body>
+
+    <header>
+
+
+        <!-- <div class="liens">
+            <a href="../index.html" class="active footer">accueil |</a>
+            <a href="../shopping_cart/shopping_cart.html" class="active1 footer">panier |</a>
+            <a href="../contact/contact.html" class="active2 footer">contact |</a>
+            <a href="../my_account/my_account.html" class="active2 footer">mon compte |</a>
+            <a id="admin" href="../product/product.html " class="active2 footer ">Administrateur |</a>
+            <a id="co" href="../login/connection.html" class="active2 footer">Connexion</a>
+            <a onclick="removeBasket()" href="../utils/deconnection.php" id="deco" class="active2 footer">Déconnexion</a>
+
+        </div> -->
+
+    </header>
+    <a href="../home/index.html ">
+        <img class="logo " src="../assets/unnamed.png ">
+    </a>
+
+    <h1>Entrer vos coordonées</h1><br><br>
+
+    <form>
+        <div class="register"></div>
+        <!-- <h2 class="active">Entrer vos coordonées</h2> -->
+
+        <!-- <input type="text" id="userId" hidden> -->
+        <span class="nom"></span>
+        <input id="street_number" type="text" class="text" placeholder="Numéro de rue" name="street_number">
+
+        <br>
+        <span class="prenom"></span>
+        <input id="street_name" type="text" class="text" placeholder="Nom de rue" Prénom="street_name">
+
+        <br>
+        <span class="sexe"></span>
+        <input id="zip_code" type="text" class="text" placeholder="Code postal" name="zip_code">
+        <br>
+
+
+        <span class="ddn"></span>
+        <input id="country" type="text" class="text" placeholder="Pays" name="country">
+
+        <br>
+
+
+        <span class="adresse"></span>
+        <input id="city" type="text" class="text" placeholder="Ville" name="City">
+        <br>
+
+
+        <br>
+        <br>
+
+        <!-- <button class="signin">
+           VALIDER
+          </button> -->
+
+
+        <button id="btn-form">Valider
+            <i class="fas fa-check-circle" id="val"></i>
+            
+        </button>
+    </form>
+    </div>
+    <!-- <form> -->
+
+    <!-- <input type="text" id="addressId" hidden>
+        <input type="number" id="street_number" placeholder="Numéro de rue">
+        <input type="text" id="street_name" placeholder="Nom de rue">
+        <input type="number" id="zip_code" placeholder="Code postal">
+        <input type="text" id="country" placeholder="Pays">
+        <input type="text" id="city" placeholder="Ville"> -->
+    <!-- </form> -->
+    <!-- <table>
+        <tr>
+            <th>Numéro de rue</th>
+            <th>Nom de rue</th>
+            <th>Code postal</th>
+            <th>Pays</th>
+            <th>Ville</th>
+            <th>Valider</th>
+        </tr>
+    </table> -->
+
+    <!-- <script src="../utils/utils.js "></script> -->
+
+    <script>$("header").load("../utils/header.html")</script>
+    <script src="address_user.js"></script>
+
+</body>
+
+</html>

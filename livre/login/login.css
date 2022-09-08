@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    /* background: #4c77af;
+    background: -webkit-linear-gradient(right, #4c77af, #4c77af);
+    background: -moz-linear-gradient(right, #4c77af, #4c77af);
+    background: -o-linear-gradient(right, #4c77af, #4c77af);
+    background: linear-gradient(to left, #4c77af, #4c77af); */
+    background-color: #d8d8d8;
+}
+
+form {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to bottom, #0068ef00, #bababa);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 25px;
+    background-color: #a4a4a4;
+
+}
+
+.logo{
+    height: 177%;
+    width: 10%;
+}
+
+
+a {
+    color: black;
+    /* text-decoration: none; */
+}
+
+
+/* .active {
+    border-bottom: 2px solid #1161ed;
+} */
+
+h1 {
+    padding-left: 12px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+.un {
+    text-align: center;
+    /* margin-top: 200px; */
+}
+
+.text:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    /* border-radius: 20px; */
+    background: rgba(0, 0, 0, 0);
+}
+
+.text:focus+span {
+    opacity: 0.6;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    display: inline-block;
+    width: 50%;
+    padding-top: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    /* cursor: pointer; */
+    text-decoration: none;
+    color: 12 102 206;
+}
+
+.envoyer {
+    background-color: rgb(51, 101, 209);
+    cursor: pointer;
+}
+
+.signin:focus {
+    outline: none;
+}
+/* 
+@media(max-width:1440px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 80%;
+    }
+}
+
+@media(max-width:1366px) {
+    h1 {
+        font-size: 2.6em;
+    }
+    .trois {
+        padding: 2.5em;
+    }
+    .deux {
+        margin: 2em auto;
+        width: 36%;
+    }
+}
+
+@media(max-width:1280px) {
+    .deux {
+        width: 40%;
+    }
+}
+
+@media(max-width:1080px) {
+    .deux {
+        width: 46%;
+    }
+}
+
+@media(max-width:1024px) {
+    .deux {
+        width: 49%;
+    }
+}
+
+@media(max-width:991px) {
+    h1 {
+        font-size: 2.4em;
+    }
+    .un {
+        padding: 2em 0 1em;
+    }
+}
+
+@media(max-width:900px) {
+    .deux {
+        width: 58%;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 93%;
+    }
+}
+
+@media(max-width:800px) {
+    h1 {
+        font-size: 2.2em;
+    }
+}
+
+@media(max-width:736px) {
+    .deux {
+        width: 62%;
+    }
+}
+
+@media(max-width:667px) {
+    .deux {
+        width: 67%;
+    }
+}
+
+@media(max-width:600px) {
+    .trois {
+        padding: 2.2em;
+    }
+    input[type="text"],
+    input[type="email"] {
+        margin: 1.5em 0;
+    }
+    input[type="submit"] {
+        margin: 2em 0;
+    }
+    h1 {
+        font-size: 2em;
+        letter-spacing: 3px;
+    }
+}
+
+@media(max-width:568px) {
+    .deux {
+        width: 75%;
+    }
+}
+
+@media(max-width:480px) {
+    h1 {
+        font-size: 1.8em;
+        letter-spacing: 3px;
+        width: 50%s;
+    }
+    .trois {
+        padding: 1.8em;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 91%;
+    }
+    .trois {
+        font-size: 0.9em;
+    }
+} */

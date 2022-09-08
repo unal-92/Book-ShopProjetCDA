@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="admin_user.css">
+
+    <!-- GESTION DES USERS PAR L'ADMIN -->
+
+    <title>Utilisateurs</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="../genre/genre.html">Genres |</a>
+        <a href="../category/category.html">Catégories |</a>
+        <a href="../product/product.html">Produits |</a>
+        <a href="../admin_address/admin_address.html">Commandes |</a>
+
+        <a href="../home/index.html">
+            <i class="fas fa-home" id="accueil"></i>
+
+        </a>
+
+    </header>
+
+    <a href="../home/index.html">
+        <img src="../assets/unnamed.png" height="130px">
+    </a>
+
+    <div class="un"></div>
+    <h1>Utilisateurs</h1><br><br>
+    <div class="deux">
+        <div class="trois">
+            <form>
+                <input type="text" id="userId" hidden>
+                <input type="text" id="login" placeholder="Login"><br><br>
+                <input type="text" id="name" placeholder="Name"><br><br>
+                <input type="text" id="lastname" placeholder="Lastname"><br><br>
+                <input type="date" id="birthdate" placeholder="Birthdate"><br><br>
+                <input type="text" id="email" placeholder="Email"><br><br>
+
+                <button class="ajoute" id="btn-form">Modifier
+                    <i class="fas fa-pen-alt" id="modif"></i>
+
+                </button>
+            </form>
+
+
+
+            <table>
+
+                <tr>
+                    <th>Login</th>
+                    <th>Name</th>
+                    <th>Lastname</th>
+                    <th>birthdate</th>
+                    <th>Email</th>
+                    <th>Supprimer</th>
+                    <th>Modifier</th>
+                </tr>
+
+            </table>
+
+        </div>
+    </div>
+    </div>
+
+
+    <script src="admin_user.js"></script>
+
+</body>
+
+</html>

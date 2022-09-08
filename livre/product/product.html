@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="product.css">
+
+    <title>Produit</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="../genre/genre.html">Genres |</a>
+        <a href="../category/category.html">Catégories |</a>
+        <a href="../admin_user/admin_user.html">Utilisateurs |</a>
+        <a href="../admin_address/admin_address.html">Commandes |</a>
+        <a href="../home/index.html">
+
+            <i class="fas fa-home" id="accueil"></i>
+        </a>
+
+    </header>
+
+    <a href="../home/index.html">
+        <img class="logo" src="../assets/unnamed.png" height="130px">
+    </a>
+
+    <div class="un"></div>
+
+    <h1>Produits</h1>
+
+    <div class="deux">
+        <div class="trois">
+
+            <form>
+
+                <input type="text" id="productId" hidden><br><br>
+                <input type="text" id="title" placeholder="Nom du produit"><br><br>
+                <input type="text" id="author" placeholder="Auteur"><br><br>
+                <input type="number" id="age" placeholder="Âge minimum conseillé"><br><br>
+                <input class="pointer" type="file" id="file" placeholder="Image"><br><br>
+                <textarea id="desc" placeholder="Description" cols="30" rows="10"></textarea><br><br>
+                <!-- <input type="text" id="desc" placeholder="Description"><br><br> -->
+                <input type="number" id="price" placeholder="Price"><br><br>
+
+                <select id="category">
+                    <option value="null" selected disabled hidden>selectionner la catégorie</option>
+                </select><br><br>
+
+
+
+                <button id="btn-form">
+                    <i class="fas fa-plus-circle" id="add"></i>
+                </button>
+
+            </form>
+
+
+            <table>
+                <tr>
+                    <th>Nom du produit</th>
+                    <th>Auteur</th>
+                    <th>Âge minimum</th>
+                    <th>Image</th>
+                    <th>Description</th>
+                    <th>Prix</th>
+                    <th>Catégorie</th>
+                    <th>Supprimer</th>
+                    <th>Modifier</th>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="product.js"></script>
+</body>
+
+</html>

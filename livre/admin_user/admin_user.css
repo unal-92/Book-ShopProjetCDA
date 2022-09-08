@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #d8d8d8;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+header {
+    text-align: end;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    word-spacing: 3%;
+    background-color: #123562;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+table {
+    position: relative;
+    z-index: 1;
+    /* background: linear-gradient(to bottom, #0068ef00, #4c77af); */
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    width: 65%;
+    border-radius: 1em;
+    background-color: #a4a4a4;
+
+}
+
+form {
+    width: 45%;
+    position: relative;
+    z-index: 1;
+    /* background: linear-gradient(to bottom, #0068ef00, #4c77af); */
+    /* max-width: 360px; */
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 25px;
+    background-color: #a4a4a4;
+
+}
+
+button {
+    width: 0px;
+    /* background-color: rgb(243 243 243); */
+    cursor: pointer;
+    /* border-radius: 12%; */
+    color: linear-gradient(to left, #0068ef00, #4c77af);
+}
+
+#btn-form:hover {
+    color: #00ff3c;
+    transform: scale(1.5);
+}
+
+#btn-form {
+    background-color: #00a426;
+    width: 12%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#delete:hover {
+    color: rgb(255, 0, 0);
+    transform: scale(1.5);
+}
+
+#delete {
+    color: #b32b2b;
+    opacity: 0.7;
+    font-size: x-large;
+}
+
+#update:hover {
+    color: blue;
+    transform: scale(1.5);
+}
+
+#update {
+    color: #135ab7;
+    font-size: x-large;
+    opacity: 0.7;
+}
+
+.un {
+    text-align: center;
+    margin-top: -77px;
+    padding-top: 70px;
+}
+
+#accueil {
+    padding-right: 2%;
+}
+
+.date {
+    width: 2%;
+}
+
+#birthdate {
+    width: 17%;
+}
+/* 
+@media(max-width:1440px) {
+    input[type="text"],
+    input[type="date"] {
+        width: 94%;
+    }
+}
+
+@media(max-width:1366px) {
+    h1,
+    form,
+    header {
+        font-size: 2.6em;
+    }
+    .trois {
+        padding: 2.5em;
+    }
+    .deux {
+        margin: 2em auto;
+        width: 36%;
+    }
+}
+
+@media(max-width:1280px) {
+    .deux {
+        width: 40%;
+    }
+}
+
+@media(max-width:1080px) {
+    .deux {
+        width: 46%;
+    }
+}
+
+@media(max-width:1024px) {
+    .deux {
+        width: 49%;
+    }
+}
+
+@media(max-width:991px) {
+    h1,
+    form,
+    header {
+        font-size: 2.4em;
+    }
+    .un {
+        padding: 2em 0 1em;
+    }
+}
+
+@media(max-width:900px) {
+    .deux {
+        width: 58%;
+    }
+    input[type="text"],
+    input[type="date"] {
+        width: 93%;
+    }
+}
+
+@media(max-width:800px) {
+    h1,
+    form,
+    header {
+        font-size: 2.2em;
+    }
+}
+
+@media(max-width:736px) {
+    .deux {
+        width: 62%;
+    }
+}
+
+@media(max-width:667px) {
+    .deux {
+        width: 67%;
+    }
+}
+
+@media(max-width:600px) {
+    .trois {
+        padding: 2.2em;
+    }
+    input[type="text"],
+    input[type="date"] {
+        margin: 1.5em 0;
+    }
+    input[type="submit"] {
+        margin: 2em 0;
+        width: 50%;
+    }
+    h1,
+    form,
+    header {
+        font-size: 2em;
+        letter-spacing: 3px;
+    }
+}
+
+@media(max-width:568px) {
+    .deux {
+        width: 75%;
+    }
+}
+
+@media(max-width:480px) {
+    h1,
+    form,
+    header {
+        font-size: 1.8em;
+        letter-spacing: 3px;
+        width: 50%s;
+    }
+    .trois {
+        padding: 1.8em;
+    }
+    input[type="text"],
+    input[type="date"] {
+        width: 91%;
+    }
+    .trois {
+        font-size: 0.9em;
+    }
+} */

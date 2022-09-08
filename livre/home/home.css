@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* body {
+    background: #d8d8d8;
+} */
+
+img {
+    width: 100px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+header {
+    text-align: end;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    word-spacing: 3%;
+    /* background-color: #a6b6c9; */
+    background-color: #123562;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.logo {
+    height: 130%;
+    width: 8.4%;
+}
+
+#panier:hover {
+    color: blue;
+    transform: scale(1.5);
+}
+
+#panier {
+    color: #135ab7;
+    font-size: xx-large;
+}
+
+button {
+    width: 0%;
+}
+
+#add-cart {
+    color: rgb(255, 0, 0);
+}
+
+#logout {
+    color: rgb(0, 0, 0);
+    padding-right: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.un {
+    text-align: center;
+    margin-top: -77px;
+    padding-top: 70px;
+}
+
+button {
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    ;
+}
+
+table {
+    position: relative;
+    z-index: 1;
+    /* background: linear-gradient(to bottom, #0068ef00, #4c77af); */
+    /* max-width: 360px; */
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+    /* width: 85%; */
+    font-family: cursive;
+    /* .tel {
+    color: red;
+    */
+    background-color: #dddddd;
+}
+
+.reseau {
+    color: red;
+}
+
+.mail {
+    color: red;
+} */
+
+
+footer {
+    background-color: rgb(84 124 177);
+    padding-top: 2%;
+}
+
+.contacter {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* 
+#overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 40;
+    cursor: pointer;
+    opacity: 0;
+    transform: scale(0, 0);
+    transition: opacity 300ms ease-in-out;
+}
+
+aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 50;
+    background: white;
+    padding: 40px;
+    transform: translate3d(-100%, 0, 0);
+    transition: all 300ms ease-in-out;
+}
+
+#overlay.open {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+aside.open {
+    transform: translate3d(0, 0, 0);
+} */
+
+
+/* 
+@media(max-width:1440px) {
+    input[type="text"],
+    input[type="submit"] {
+        width: 94%;
+    }
+}
+
+@media(max-width:1366px) {
+    h1,
+    header {
+        font-size: 2.6em;
+    }
+    .trois {
+        padding: 2.5em;
+    }
+    .deux {
+        margin: 2em auto;
+        width: 36%;
+    }
+}
+
+@media(max-width:1280px) {
+    .deux {
+        width: 40%;
+    }
+}
+
+@media(max-width:1080px) {
+    .deux {
+        width: 46%;
+    }
+}
+
+@media(max-width:1024px) {
+    .deux {
+        width: 49%;
+    }
+}
+
+@media(max-width:991px) {
+    h1,
+    header {
+        font-size: 2.4em;
+    }
+    .un {
+        padding: 2em 0 1em;
+    }
+}
+
+@media(max-width:900px) {
+    .deux {
+        width: 58%;
+    }
+    input[type="text"],
+    input[type="submit"] {
+        width: 93%;
+    }
+}
+
+@media(max-width:800px) {
+    h1,
+    header {
+        font-size: 2.2em;
+    }
+}
+
+@media(max-width:736px) {
+    .deux {
+        width: 62%;
+    }
+}
+
+@media(max-width:667px) {
+    .deux {
+        width: 67%;
+    }
+}
+*/
+
+@media(max-width:600px) {
+    .trois,
+    header {
+        padding: 2.2em;
+    }
+    /* header {
+        margin: 1.5em 0;
+    } */
+    header {
+        margin: 2em 0;
+        width: 50%;
+    }
+    h1,
+    header {
+        font-size: 2em;
+        letter-spacing: 3px;
+    }
+}
+
+@media(max-width:568px) {
+    .deux,
+    header {
+        width: 75%;
+    }
+}
+
+@media(max-width:480px) {
+    h1,
+    header {
+        font-size: 1.8em;
+        letter-spacing: 3px;
+        width: 50%s;
+    }
+    .trois,
+    header {
+        padding: 1.8em;
+    }
+    header {
+        width: 91%;
+    }
+    .trois,
+    header {
+        font-size: 0.9em;
+    }
+}
